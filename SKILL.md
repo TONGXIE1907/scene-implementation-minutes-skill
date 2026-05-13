@@ -7,6 +7,25 @@ description: Use when the user provides a meeting transcript (with or without sp
 
 Generate structured, professional meeting minutes from transcripts. Optimized for **platform training + requirements collection** meetings. Use this skill to produce consistent, actionable meeting documentation.
 
+## Iron Law: Complete Coverage
+
+**无论转录文本有多长，都必须完整处理全部内容，严禁遗漏任何部分。**
+
+This is non-negotiable:
+
+- If the transcript is too long for a single response, process it in **multiple passes** — chunk by time range, process each chunk independently, then merge
+- If output is truncated, continue from exactly where you stopped — do not summarize or skip remaining content
+- Every timestamped segment must be accounted for in the output. If a section of the transcript is deemed "not relevant to the main topic", include it anyway as a brief note rather than dropping it entirely
+- The 9-section structure must cover ALL content from the transcript, not just the "important parts"
+
+**Violation detection**: If the chapter count or department count in your output does not match the transcript, you have violated this rule. Go back and fill in the missing parts.
+
+**No exceptions:**
+- Not for "this part is repetitive"
+- Not for "this was already covered"
+- Not for "context is limited"
+- Process everything. Split into multiple responses if needed.
+
 ## Input Handling
 
 Transcripts may have **timestamps only (no speaker labels)**. Infer speaker roles from semantics:
@@ -144,8 +163,11 @@ Time, participants, core agenda, pre-requisites.
 
 ## Anti-Patterns
 
+- **Don't skip or summarize any portion of the transcript** — this is the #1 rule. Long transcripts must be processed in multiple passes if needed
 - Don't write "以下是会议纪要" preamble — output directly
-- Don't omit client's operational details — preserve every workflow step
+- Don't omit client's operational details — preserve every workflow step the client described
+- Don't skip departments or merge them together — each department that spoke gets its own section
 - Don't use generic flowcharts — reflect actual business logic with decision branches
-- Don't merge departments — keep each department's requirements separate
 - Don't use half-width colons in Mermaid mindmap nodes
+- Don't drop "minor" requirements — even brief mentions of pain points should be recorded
+- Don't truncate output mid-section — if output is cut off, continue in the next response from the exact break point
