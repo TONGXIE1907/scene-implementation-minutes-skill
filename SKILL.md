@@ -43,7 +43,7 @@ Output complete Markdown following these 9 sections. Skip sections that have no 
 |------|------|
 | 会议时间 | ... |
 | 会议地点 | ... |
-| 培训方 | 灵泽万川 + names |
+| 培训方 |  names |
 | 客户方参会部门 | list all |
 | 会议主题 | AI数字员工平台基础培训 + 企业需求采集调研 |
 | 会议时长 | ... |
