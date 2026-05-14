@@ -1,6 +1,6 @@
 ---
 name: meeting-minutes
-description: Use when the user provides a meeting transcript (with or without speaker labels) and needs structured meeting minutes — especially for platform training + requirements collection scenarios. Triggers on: "生成会议纪要", "整理会议记录", "meeting minutes", pasted transcript text with timestamps, or any request to structure meeting notes. Also use when the user mentions 培训, 需求收集, 甲方, or 数字员工 in context of meeting documentation.
+description: Use when the user provides a meeting transcript (with or without speaker labels) and needs structured meeting minutes — especially for platform training + requirements collection scenarios. Triggers on: "生成会议纪要", "整理会议记录", "meeting minutes", pasted transcript text with timestamps, or any request to structure meeting notes. Also use when the user mentions 培训, 需求收集, 甲方, context of meeting documentation.
 ---
 
 # Meeting Minutes Generator
