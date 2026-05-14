@@ -52,9 +52,9 @@ Output complete Markdown following these 9 sections. Skip sections that have no 
 
 Sub-sections:
 - **2.1 基础概念** — concepts, analogies used, client questions
-- **2.2 平台架构** — memory/thinking/capability layers, permissions, concurrency
+- **2.2 平台架构** —
 - **2.3 平台场景演示** — each demo scenario with workflow and pain point it solves
-- **2.4 客户答疑与讨论要点** — non-requirement Q&A (model choice, hardware, WeChat integration, etc.)
+- **2.4 客户答疑与讨论要点** — non-requirement Q&A
 
 ### Section 3: 需求采集（按部门）
 
