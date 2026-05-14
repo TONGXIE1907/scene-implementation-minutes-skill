@@ -51,11 +51,10 @@ Output complete Markdown following these 9 sections. Skip sections that have no 
 ### Section 2: 培训内容记录
 
 Sub-sections:
-- **2.1 AI/大模型基础概念** — concepts, analogies used, client questions
-- **2.2 知识库、智能体与MCP协议** — knowledge base tiers, agent types, tool calling
-- **2.3 数字员工平台架构** — memory/thinking/capability layers, permissions, concurrency
-- **2.4 平台场景演示** — each demo scenario with workflow and pain point it solves
-- **2.5 客户答疑与讨论要点** — non-requirement Q&A (model choice, hardware, WeChat integration, etc.)
+- **2.1 基础概念** — concepts, analogies used, client questions
+- **2.2 平台架构** — memory/thinking/capability layers, permissions, concurrency
+- **2.3 平台场景演示** — each demo scenario with workflow and pain point it solves
+- **2.4 客户答疑与讨论要点** — non-requirement Q&A (model choice, hardware, WeChat integration, etc.)
 
 ### Section 3: 需求采集（按部门）
 
