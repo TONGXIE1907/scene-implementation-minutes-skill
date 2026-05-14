@@ -48,7 +48,7 @@ Output complete Markdown following these 9 sections. Skip sections that have no 
 | 会议主题 | 企业需求采集调研 |
 | 会议时长 | ... |
 
-### Section 2: 培训内容记录
+### Section 2: 培训内容记录（如果全文没有涉及这部分内容，只是需求收集，则跳过这个章节）
 
 Sub-sections:
 - **2.1 基础概念** — concepts, analogies used, client questions
